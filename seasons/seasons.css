@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+html, body {
+    height: 100%;
+	margin: 0;
+	padding: 0 ;
+	background: url("mountain.jpg") no-repeat;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: 'Sofia';
+}
+
+#seasons {
+	padding: 10px;
+    text-align:center;
+}
+
+nav {
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin: 0 30px;
+    color:black;
+}
+
+.winter ul li a{
+    text-decoration: none;
+    color: #33ccff;
+  }
+
+.summer ul li a{
+    text-decoration: none;
+    color: darkgreen;
+  }
+
+.spring ul li a{
+    text-decoration: none;
+    color: hotpink;
+  }
+
+.fall ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+figure {
+    width: 240px;
+    padding: 10px;
+    float: left;
+    border: 1px solid white;
+    overflow: visible;
+    background-color: lightgray;
+    margin: 10px 45px;
+}
+
+h1 {
+text-align: center;
+}
+
+footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rebeccapurple;
+   color: white;
+   text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+}
+
+
+body.winter {
+    background: url("winterbg.jpg") no-repeat;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.winter footer{
+    position:inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #33ccff;
+   color: white;
+   text-align: center;
+}
+
+body.fall {
+background: url("fallbg.jpg") no-repeat;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fall footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: darkorange;
+   color: white;
+   text-align: center;
+}
+
+.spring footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:palevioletred;
+   color: white;
+   text-align: center;
+}
+
+body.spring {
+background: url("springbg.jpg") no-repeat;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.summer footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:greenyellow;
+   color: white;
+   text-align: center;
+}
+
+body.summer {
+background: url("summerbg.jpg") no-repeat;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
