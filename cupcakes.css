@@ -21,7 +21,7 @@ clear:both;
 }
 
 nav {
-    padding :10px 0;
+    padding:10px 0;
     background-color: #0EC8C7;
 }
 
@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 #sidebar {
-float: left;
+    float: left;
     background:red;
     padding: 3%;
     width: 13%;
@@ -65,23 +65,23 @@ float: left;
 }
 
 #sidebar li{
-margin: 0 0 20px;
+    margin: 0 0 20px;
 }
 
 #sidebar li a {
-color:#fff;
+    color:#fff;
     text-decoration:none;
 }
 
 #content{
-padding :3%;
-    width:73%
-        float :right;
+    padding:3%;
+    width:73%;
+    float:right;
     background: #fff;
 }
 
 footer {
-background-color: #0EC8C7
+    background-color: #0EC8C7;
     padding: 20px 10px;
     text-align: center;
     clear: both;
@@ -89,41 +89,40 @@ background-color: #0EC8C7
 }
 
 footer p {
-font-weight :bold;
+    font-weight:bold;
     margin:0;
     padding:0;
 }
 
 footer ul {
-margin:0;
+    margin:0;
     padding:0;
     list-style-type:none;
 }
 
 footer li {
-display: inline;
+    display: inline;
 }
 
 .cupcake-buy {
-float:right;
+    float:right;
     max-width: 320px;
     width:50%;
     margin: 0 0 15px 15px;
 }
 
 h1 {
-font-size: 28px;
+    font-size: 28px;
     margin-top: 0px;
 }
 
-@media screen and (min-width:906px) and (max-width: 1000px) {
+@media screen and (min-width:90%) and (max-width: 100%) {
     #wrap {
         width: 100%;
-       
     }
 }
     
-@media screen and (min-width:751px) and(max-width: 905px) {
+@media screen and (min-width:75%) and(max-width: 90%) {
     #wrap {
         width:100%;
     }
@@ -158,24 +157,24 @@ font-size: 28px;
     }
     
     #sidebar {
-    width: 100%;
+        width: 100%;
         float:none;
     }
     
     #content {
-    width: 100%;
+        width: 100%;
         float: none;
         padding: 10px;
     }
     
     .cupcake-buy {
-    float:none;
+        float:none;
         width:100%;
         display:block;
         margin:10px 0;
     }
     
     #content p {
-    margin-right: 20px;
+        margin-right: 20px;
     }
 }
