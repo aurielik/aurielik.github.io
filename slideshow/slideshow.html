@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<link href="slideshow.css" rel="stylesheet" type="text/css">
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+<nav>
+<div class="topnav">
+    <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Friends</a></li>
+  <li><a href="#">Family</a></li>
+  <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+</nav>
+    
+<section>
+    <div id="main">
+          <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="alexis1%20copy.JPG" data-thumb="images/alexis1.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="jake2.jpeg" data-thumb="images/jake2.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="alexis3.JPG" data-thumb="images/alexis3.jpg" alt="" data-transition="slideInLeft" />
+                <img src="jake3.jpeg" data-thumb="images/jake3.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+<p>this is the main content</p> 
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque diam dolor, quis scelerisque neque mattis quis. Praesent euismod mi porttitor nisl tincidunt laoreet. Nullam eget lacus lectus. Maecenas sem augue, tincidunt ut vehicula id, volutpat nec lectus. Aliquam gravida nisl mollis leo porttitor, vel fringilla odio pulvinar. Phasellus odio diam, dapibus nec velit et, ultrices vestibulum risus. Nulla nisl magna, laoreet vitae pretium nec, pretium et nunc. Duis nunc orci, consequat at felis sed, dictum sollicitudin odio. Sed sagittis quam ut mi lacinia, eu venenatis mauris molestie. Donec nibh sem, mattis eu suscipit vitae, pellentesque vel eros. Phasellus euismod pharetra gravida. Praesent et risus quis velit malesuada porta non a magna. Vestibulum sodales, mauris nec sollicitudin ultrices, ante libero maximus neque, vel placerat turpis elit sit amet sapien.</p>
+
+<p>Donec rhoncus eros id magna feugiat, at scelerisque ex commodo. Pellentesque ut metus velit. Praesent vel ex eget elit elementum tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu est efficitur, eleifend velit eu, sagittis neque. Sed non augue in nibh consectetur pretium. Suspendisse ultrices massa nec ultrices consectetur. Integer efficitur leo turpis, quis ullamcorper ante vulputate laoreet. Nam eu est et lectus posuere pretium nec ut felis. Suspendisse eget scelerisque augue, id porta nibh. Duis ut libero mauris. Nulla molestie pulvinar justo, lobortis mattis nulla pulvinar eget. Praesent volutpat, mauris a imperdiet sollicitudin, leo sem porttitor mauris, a blandit urna augue vel mi. Pellentesque sed tellus posuere, congue diam et, accumsan ex. Sed nec tincidunt lectus. Pellentesque vel urna a urna lobortis commodo.</p>
+
+<p> Proin lacus enim, imperdiet non risus et, consequat commodo turpis. Aenean scelerisque tortor ac tempor posuere. Nunc quis egestas ex, vulputate dictum odio. Cras a magna a urna porttitor finibus eget mollis erat. Fusce a risus sed lorem ullamcorper gravida ut nec libero. Curabitur viverra erat vitae lectus auctor vulputate. Sed imperdiet gravida sapien vitae pretium. Duis rhoncus dictum pulvinar. Pellentesque gravida leo sed risus sodales, at fringilla dolor porta. Nullam hendrerit diam at odio sodales facilisis.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/q4wkEQ8Flik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div id="side">
+         <p>this is the side content</p>
+         <p>this is the side content</p>
+         <p>this is the side content</p>
+         <p>this is the side content</p>
+
+    </div>
+</section>
+     <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
